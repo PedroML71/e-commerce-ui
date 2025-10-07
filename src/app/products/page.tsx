@@ -10,7 +10,7 @@ const ProductsPage: FC<ProductsPageProps> = async ({ searchParams }) => {
 
   return (
     <div className="">
-      <ProductList category={category} />
+      <ProductList category={category} params="products" />
     </div>
   );
 };

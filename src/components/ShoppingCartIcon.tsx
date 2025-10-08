@@ -6,7 +6,9 @@ import Link from "next/link";
 import useCartStore from "@/stores/cartStore";
 
 const ShoppingCartIcon: FC = ({}) => {
-  const { cart } = useCartStore();
+  const { cart, hasHydrated } = useCartStore();
+
+  if (!hasHydrated) return null;
 
   return (
     <Link href={"/cart"} className="relative">

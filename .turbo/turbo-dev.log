@@ -1,0 +1,110 @@
+[?9001h[?1004h[?25l[2J[m[35m[2m[H$[m[1m[2m[1Cnext dev --turbopack --port 3004
+]0;C:\Users\pedro\.bun\bin\bun.exe[?25h[22m]0;next-server (v15.4.5)   [38;2;173;127;168m[1m▲ Next.js 15.4.5[m (Turbopack)
+[?25l   - Local:        http://localhost:3004
+   - Network:      http://192.168.56.1:3004
+   - Environments: .env[7;1H [32m[1m✓[m Starting...
+[?25h [37m[1m○[m Compiling middleware ...
+ [32m[1m✓[m Compiled middleware in 2.9s
+ [32m[1m✓[m Ready in 10.5s
+ [37m[1m○[m Compiling / ...
+ [32m[1m✓[m Compiled / in 11.4s
+ GET / [32m200 [min 13238ms
+ [37m[1m○[m Compiling /favicon.ico ...
+ POST / [32m200 [min 1206ms
+ [32m[1m✓[m Compiled /favicon.ico in 1907ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 2731ms
+ [32m[1m✓[m Compiled in 1688ms
+ [37m[1m○[m Compiling / ...
+ [32m[1m✓[m Compiled / in 608ms
+ GET / [32m200 [min 1738ms
+ [32m[1m✓[m Compiled middleware in 4ms
+ GET / [32m200 [min 675ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 444ms
+ [37m[1m [m Reload env: .env
+ [37m[1m○[m Compiling middleware ...
+ [32m[1m✓[m Compiled middleware in 740ms
+ [32m[1m✓[m Compiled in 6.8s
+ [37m[1m○[m Compiling / ...
+ [33m[1m⚠[m Fast Refresh had to perform a full reload when ./node_modules/.bun/@clerk+nextjs@6.33.4+3de749d23b447736/node_modules/@clerk/nextjs/dist/esm/server/constants.js chan
+[10;168Hnged. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ [32m[1m✓[m Compiled / in 2.2s
+ GET / [32m200 [min 5511ms
+ GET / [32m200 [min 5506ms
+ GET / [32m200 [min 688ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 609ms
+ POST / [32m200 [min 475ms
+ [37m[1m [m Reload env: .env
+ [32m[1m✓[m Compiled middleware in 322ms
+ [32m[1m✓[m Compiled in 5.3s
+ [33m[1m⚠[m Fast Refresh had to perform a full reload when ./node_modules/.bun/@clerk+nextjs@6.33.4+3de749d23b447736/node_modules/@clerk/nextjs/dist/esm/server/constants.js chan
+[10;168Hnged. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ [32m[1m✓[m Compiled / in 333ms
+ GET / [32m200 [min 5286ms
+ GET / [32m200 [min 1884ms
+ GET / [32m200 [min 1907ms
+ GET / [32m200 [min 643ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 994ms
+ POST / [32m200 [min 818ms
+ [32m[1m✓[m Compiled middleware in 4ms
+ GET / [32m200 [min 1611ms
+ [37m[1m○[m Compiling /sign-in/[[...sign-in]] ...
+ [32m[1m✓[m Compiled /sign-in/[[...sign-in]] in 1791ms
+ GET /sign-in [32m200 [min 6430ms
+ GET /sign-in [32m200 [min 423ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 1066ms
+ GET /sign-in?sign_up_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&redirect_url=http%3A%2F%2Flo
+[10;168Hocalhost%3A3004%2F [32m200 [min 1490ms[K
+ GET /sign-in/SignIn_clerk_catchall_check_1760630264170 [32m200 [min 1632ms
+ [37m[1m○[m Compiling /sign-up/[[...sign-up]] ...
+ [32m[1m✓[m Compiled /sign-up/[[...sign-up]] in 1648ms
+ GET /sign-up [32m200 [min 4082ms
+ GET /sign-up?sign_up_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&redirect_url=http%3A%2F%2Flo
+[10;168Hocalhost%3A3004%2F [32m200 [min 479ms[K
+ GET /sign-up/SignUp_clerk_catchall_check_1760630283146 [32m200 [min 939ms
+ GET /sign-up?sign_up_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&redirect_url=http%3A%2F%2Flo
+[10;168Hocalhost%3A3004%2F [32m200 [min 589ms[K
+ GET / [32m200 [min 1017ms
+ [32m[1m✓[m Compiled in 145ms
+ [37m[1m○[m Compiling /sign-up/[[...sign-up]] ...
+ [32m[1m✓[m Compiled /sign-up/[[...sign-up]] in 1290ms
+ GET /sign-up?sign_up_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&redirect_url=http%3A%2F%2Flo
+[10;168Hocalhost%3A3004%2F [32m200 [min 2819ms[K
+ GET /sign-up/SignUp_clerk_catchall_check_1760630452131 [32m200 [min 3130ms
+ GET /sign-in [32m200 [min 639ms
+ GET /sign-in?sign_up_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&redirect_url=http%3A%2F%2Flo
+[10;168Hocalhost%3A3004%2F [32m200 [min 2520ms[K
+ GET /sign-in?sign_up_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&redirect_url=http%3A%2F%2Flo
+[10;168Hocalhost%3A3004%2F [32m200 [min 2523ms[K
+ GET /sign-in/SignIn_clerk_catchall_check_1760630510201 [32m200 [min 2600ms
+ [32m[1m✓[m Compiled in 226ms
+ [37m[1m○[m Compiling /sign-in/[[...sign-in]] ...
+ [32m[1m✓[m Compiled /sign-in/[[...sign-in]] in 1064ms
+ GET /sign-in?sign_up_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&redirect_url=http%3A%2F%2Flo
+[10;168Hocalhost%3A3004%2F [32m200 [min 2574ms[K
+ GET /sign-in/SignIn_clerk_catchall_check_1760630527228 [32m200 [min 998ms
+ GET /sign-up [32m200 [min 1281ms
+ GET /sign-up?sign_up_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&redirect_url=http%3A%2F%2Flo
+[10;168Hocalhost%3A3004%2F [32m200 [min 3230ms[K
+ GET /sign-up?sign_up_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&redirect_url=http%3A%2F%2Flo
+[10;168Hocalhost%3A3004%2F [32m200 [min 3963ms[K
+ GET /sign-up/SignUp_clerk_catchall_check_1760630596739 [32m200 [min 4193ms
+ GET /sign-up/sso-callback?sign_up_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&redirect_url=ht
+[10;168Http%3A%2F%2Flocalhost%3A3004%2F [32m200 [min 727ms[K
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 1067ms
+ POST /sign-up/sso-callback?sign_up_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&redirect_url=h
+[10;168Hhttp%3A%2F%2Flocalhost%3A3004%2F [32m200 [min 1255ms[K
+ GET /sign-up/sso-callback/SignUp_clerk_catchall_check_1760630710016 [32m200 [min 1588ms
+ POST /sign-up/sso-callback?sign_up_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&sign_in_fallback_redirect_url=http%3A%2F%2Flocalhost%3A3004%2F&redirect_url=h
+[10;168Hhttp%3A%2F%2Flocalhost%3A3004%2F [32m200 [min 726ms[K
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 637ms
+ GET / [32m200 [min 570ms
+ GET / [32m200 [min 959ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 793ms
+ [37m[1m○[m Compiling / ...
+ [32m[1m✓[m Compiled in 3.7s
+ [32m[1m✓[m Compiled / in 2.8s
+ GET / [32m200 [min 6376ms
+ GET / [32m200 [min 5645ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 1220ms
+ POST / [32m200 [min 1272ms
+ [32m[1m✓[m Compiled in 507ms

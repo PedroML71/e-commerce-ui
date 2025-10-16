@@ -1,9 +1,11 @@
 import { FC } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import SearchBar from "./SearchBar";
 import { Bell, Home } from "lucide-react";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
+import SearchBar from "./SearchBar";
 import ShoppingCartIcon from "./ShoppingCartIcon";
+import ProfileButton from "./ProfileButton";
 
 const Navbar: FC = ({}) => {
   return (
@@ -30,7 +32,12 @@ const Navbar: FC = ({}) => {
         </Link>
         <Bell className="w-4 h-4 text-gray-600" />
         <ShoppingCartIcon />
-        <Link href={"/login"}>Sign in</Link>
+        <SignedOut>
+          <SignInButton />
+        </SignedOut>
+        <SignedIn>
+          <ProfileButton />
+        </SignedIn>
       </div>
     </nav>
   );

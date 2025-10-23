@@ -29,6 +29,7 @@
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4",
     "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*"
+    "@repo/typescript-config": "workspace:*",
+    "@repo/types": "workspace:*"
   }
 }

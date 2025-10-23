@@ -1,25 +1,5 @@
 import z from "zod";
-
-export type ProductType = {
-  id: string | number;
-  name: string;
-  shortDescription: string;
-  description: string;
-  price: number;
-  sizes: [string, ...string[]];
-  colors: [string, ...string[]];
-  images: Record<string, string>;
-};
-
-export type ProductsType = ProductType[];
-
-export type CartItemType = ProductType & {
-  quantity: number;
-  selectedSize: string;
-  selectedColor: string;
-};
-
-export type CartItemsType = CartItemType[];
+import { CartItemType, CartItemsType } from "@repo/types";
 
 export const shippingFormSchema = z.object({
   name: z.string().min(1, "Name is required!"),

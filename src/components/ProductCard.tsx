@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ShoppingCart } from "lucide-react";
 import { toast } from "react-toastify";
-import { ProductType } from "@/types";
+import { ProductType } from "@repo/types";
 import useCartStore from "@/stores/cartStore";
 
 interface ProductCardProps {
@@ -37,8 +37,8 @@ const ProductCard: FC<ProductCardProps> = ({ product }) => {
     addToCart({
       ...product,
       quantity: 1,
-      selectedSize: productTypes.size,
-      selectedColor: productTypes.color,
+      selectedSize: productTypes.size!,
+      selectedColor: productTypes.color!,
     });
 
     toast.success("Product added to cart");
@@ -50,7 +50,11 @@ const ProductCard: FC<ProductCardProps> = ({ product }) => {
       <Link href={`/products/${product.id}`}>
         <div className="relative aspect-[2/3]">
           <Image
-            src={product.images?.[productTypes.color] || ""}
+            src={
+              (product.images as Record<string, string>)?.[
+                productTypes.color!
+              ] || ""
+            }
             alt={product.name}
             fill
             className="object-cover hover:scale-105 transition-all duration-300"

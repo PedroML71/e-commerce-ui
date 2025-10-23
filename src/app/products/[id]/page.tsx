@@ -1,6 +1,6 @@
 import { FC } from "react";
 import Image from "next/image";
-import { ProductType } from "@/types";
+import { ProductType } from "@repo/types";
 import ProductInteraction from "@/components/ProductInteraction";
 
 // TEMPORARY
@@ -19,6 +19,9 @@ const product: ProductType = {
     purple: "/products/1p.png",
     green: "/products/1gr.png",
   },
+  categorySlug: "test",
+  createdAt: new Date(),
+  updatedAt: new Date(),
 };
 
 interface ProductPageProps {
@@ -50,7 +53,9 @@ const ProductPage: FC<ProductPageProps> = async ({ params, searchParams }) => {
       {/* IMAGE */}
       <div className="w-full lg:w-5/12 relative aspect-[2/3]">
         <Image
-          src={product.images?.[selectedColor] || ""}
+          src={
+            (product.images as Record<string, string>)?.[selectedColor] || ""
+          }
           alt={product.name}
           fill
           className="object-contain rounded-md"

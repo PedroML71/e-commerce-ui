@@ -41,6 +41,7 @@ const ShippingForm: FC<ShippingFormProps> = ({ setShippingForm }) => {
           id="name"
           placeholder="John Doe"
           {...register("name")}
+          value={"Spongebob"}
         />
         {errors.name && (
           <p className="text-xs text-red-500">{errors.name.message}</p>
@@ -57,6 +58,7 @@ const ShippingForm: FC<ShippingFormProps> = ({ setShippingForm }) => {
           id="email"
           placeholder="johndoe@mail.com"
           {...register("email")}
+          value={"Squarepants@mail.com"}
         />
         {errors.email && (
           <p className="text-xs text-red-500">{errors.email.message}</p>
@@ -73,6 +75,7 @@ const ShippingForm: FC<ShippingFormProps> = ({ setShippingForm }) => {
           id="phone"
           placeholder="123456789"
           {...register("phone")}
+          value={"9999999999"}
         />
         {errors.phone && (
           <p className="text-xs text-red-500">{errors.phone.message}</p>
@@ -89,6 +92,7 @@ const ShippingForm: FC<ShippingFormProps> = ({ setShippingForm }) => {
           id="address"
           placeholder="123 Main St,Anytown"
           {...register("address")}
+          value={"Pinnapple under the sea"}
         />
         {errors.address && (
           <p className="text-xs text-red-500">{errors.address.message}</p>
@@ -105,6 +109,7 @@ const ShippingForm: FC<ShippingFormProps> = ({ setShippingForm }) => {
           id="city"
           placeholder="New York"
           {...register("city")}
+          value={"Bikini bottom"}
         />
         {errors.city && (
           <p className="text-xs text-red-500">{errors.city.message}</p>

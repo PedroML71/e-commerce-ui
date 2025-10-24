@@ -6,8 +6,8 @@ import { ArrowRight, Trash2 } from "lucide-react";
 import Image from "next/image";
 import { ShippingFormInputs } from "@/types";
 import ShippingForm from "@/components/ShippingForm";
-import PaymentForm from "@/components/PaymentForm";
 import useCartStore from "@/stores/cartStore";
+import StripePaymentForm from "@/components/StripePaymentForm";
 
 const steps = [
   {
@@ -181,7 +181,7 @@ const CartPage: FC = () => {
           ) : activeStep === 2 ? (
             <ShippingForm setShippingForm={setShippingForm} />
           ) : activeStep === 3 && shippingForm ? (
-            <PaymentForm />
+            <StripePaymentForm shippingForm={shippingForm} />
           ) : (
             <p className="text-sm text-gray-500">
               Please fill in the shipping form

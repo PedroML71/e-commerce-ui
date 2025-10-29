@@ -1,0 +1,100 @@
+[?9001h[?1004h[?25l[2J[m[35m[2m[H$[m[1m[2m[1Cnext dev --turbopack --port 3004
+]0;C:\Users\pedro\.bun\bin\bun.exe[?25h[22m]0;next-server (v15.4.5)   [38;2;173;127;168m[1m▲ Next.js 15.4.5[m (Turbopack)
+[?25l   - Local:        http://localhost:3004
+   - Network:      http://192.168.56.1:3004
+   - Environments: .env[7;1H [32m[1m✓[m Starting...
+[?25h [37m[1m○[m Compiling middleware ...
+ [32m[1m✓[m Compiled middleware in 2.9s
+ [32m[1m✓[m Ready in 8.5s
+ [37m[1m○[m Compiling /cart ...
+ [32m[1m✓[m Compiled /cart in 13.1s
+ GET /cart [32m200 [min 15923ms
+ [37m[1m○[m Compiling /favicon.ico ...
+ POST /cart [32m200 [min 3142ms
+ [32m[1m✓[m Compiled /favicon.ico in 3.7s
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 5740ms
+ GET /cart?step=2 [32m200 [min 574ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 811ms
+ GET /cart?step=3 [32m200 [min 744ms
+ [37m[1m○[m Compiling /return ...
+ [32m[1m✓[m Compiled /return in 1641ms
+ GET /return?session_id=cs_test_a1fJuvDvxu6YROuSsrs01dhyEJfRsS0N4UdbRaZzBTE19CRCbSf6mK7ZhP [32m200 [min 2574ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 698ms
+ POST /return?session_id=cs_test_a1fJuvDvxu6YROuSsrs01dhyEJfRsS0N4UdbRaZzBTE19CRCbSf6mK7ZhP [32m200 [min 630ms
+ [37m[1m○[m Compiling / ...
+ [32m[1m✓[m Compiled / in 2.8s
+ GET / [32m200 [min 3203ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 1019ms
+ GET /cart [32m200 [min 443ms
+ GET /cart?step=2 [32m200 [min 611ms
+ GET /cart?step=3 [32m200 [min 424ms
+ GET /return?session_id=cs_test_a16RSkzmkejZKsdeC6D8LDAJhlHhyHIYGeyOmSVKDO77IoaSSns5431kQn [32m200 [min 1236ms
+ POST /return?session_id=cs_test_a16RSkzmkejZKsdeC6D8LDAJhlHhyHIYGeyOmSVKDO77IoaSSns5431kQn [32m200 [min 517ms
+ GET / [32m200 [min 458ms
+ GET / [32m200 [min 913ms
+ POST / [32m200 [min 1196ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 1852ms
+ GET /cart [32m200 [min 696ms
+ GET /cart?step=2 [32m200 [min 812ms
+ GET /cart?step=3 [32m200 [min 884ms
+ GET /return?session_id=cs_test_a1wPD99lEF4rnPSF8UdO5cTy5gMt0UsAdclIdCEfpyFF8zvjIC57NzUoZl [32m200 [min 786ms
+ POST /return?session_id=cs_test_a1wPD99lEF4rnPSF8UdO5cTy5gMt0UsAdclIdCEfpyFF8zvjIC57NzUoZl [32m200 [min 647ms
+ GET / [32m200 [min 575ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 1729ms
+ GET /cart [32m200 [min 1845ms
+ GET /cart?step=2 [32m200 [min 1072ms
+ GET /cart?step=3 [32m200 [min 839ms
+ GET / [32m200 [min 1352ms
+ GET / [32m200 [min 1170ms
+ POST / [32m200 [min 708ms
+ GET /cart [32m200 [min 1704ms
+ GET /cart?step=2 [32m200 [min 446ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 718ms
+ GET /cart?step=3 [32m200 [min 930ms
+ GET / [32m200 [min 1370ms
+ GET /return?session_id=cs_test_a1vJgTK0XKgQKWF1nLeDsr178KMdv9DzPA3JY0MiuIdiegEqbiJSwV23Ih [32m200 [min 1247ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 927ms
+ POST /return?session_id=cs_test_a1vJgTK0XKgQKWF1nLeDsr178KMdv9DzPA3JY0MiuIdiegEqbiJSwV23Ih [32m200 [min 605ms
+ GET / [32m200 [min 666ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 1748ms
+ [37m[1m [m Reload env: .env
+ GET / [32m200 [min 8564ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 1585ms
+ [32m[1m✓[m Compiled in 257ms
+ [37m[1m○[m Compiling / ...
+ [32m[1m✓[m Compiled / in 505ms
+ [32m[1m✓[m Compiled in 596ms
+ GET / [32m200 [min 2657ms
+ [32m[1m✓[m Compiled / in 284ms
+ GET / [32m200 [min 594ms
+ GET /favicon.ico?favicon.de19e2aa.ico [32m200 [min 729ms
+ GET / [32m200 [min 1259ms
+ POST / [32m200 [min 379ms
+ GET /?category=t-shirts [32m200 [min 445ms
+ GET /?category=all [32m200 [min 363ms
+ GET /?category=t-shirts [32m200 [min 417ms
+ GET /?category=all [32m200 [min 460ms
+ GET /?category=t-shirts [32m200 [min 607ms
+ [37m[1m○[m Compiling /products ...
+ [32m[1m✓[m Compiled /products in 1971ms
+ GET /products?category=t-shirts [32m200 [min 2308ms
+ GET /products?category=t-shirts&sort=oldest [32m200 [min 339ms
+ GET /products?category=t-shirts&sort=asc [32m200 [min 372ms
+ GET /products?category=t-shirts&sort=desc [32m200 [min 361ms
+ GET /products?category=t-shirts&sort=newest [32m200 [min 386ms
+ GET /products?category=all&sort=newest [32m200 [min 324ms
+ GET / [32m200 [min 335ms
+ GET / [32m200 [min 1083ms
+ GET /?category=t-shirts [32m200 [min 510ms
+ GET /?category=all [32m200 [min 344ms
+ GET /?category=t-shirts [32m200 [min 449ms
+ [37m[1m○[m Compiling / ...
+ [32m[1m✓[m Compiled in 3.7s
+ [32m[1m✓[m Compiled / in 1410ms
+ GET /?category=t-shirts [32m200 [min 3920ms
+ GET /?category=t-shirts [32m200 [min 4007ms
+ GET /?category=t-shirts [32m200 [min 766ms
+ POST /?category=t-shirts [32m200 [min 468ms
+ [32m[1m✓[m Compiled /products in 357ms
+ GET /products?category=t-shirts&search=dri [32m200 [min 1001ms
+ GET / [32m200 [min 409ms
